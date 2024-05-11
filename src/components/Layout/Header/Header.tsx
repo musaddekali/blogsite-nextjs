@@ -14,27 +14,50 @@ export default function Header() {
             <div className="navmenu_nav">
               <ul className="flex items-center gap-x-3 text-white">
                 <li>
-                  <Link className="px-4 py-2 hover:text-slate-300 transition" href="/">
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/"
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link className="px-4 py-2 hover:text-slate-300 transition" href="/">
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/recurtion"
+                  >
+                    Recurtion
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/"
+                  >
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className="px-4 py-2 hover:text-slate-300 transition" href="/">
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/"
+                  >
                     Blogs
                   </Link>
                 </li>
                 <li>
-                  <Link className="px-4 py-2 hover:text-slate-300 transition" href="/">
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/"
+                  >
                     Gallery
                   </Link>
                 </li>
                 <li>
-                  <Link className="px-4 py-2 hover:text-slate-300 transition" href="/">
+                  <Link
+                    className="px-4 py-2 hover:text-slate-300 transition"
+                    href="/"
+                  >
                     Contact
                   </Link>
                 </li>
