@@ -1,0 +1,10 @@
+#Font family
+
+1. Domaine Display
+2. Bitter
+3. Drama Regular (hand writing)
+
+#Demo site
+https://anywhereweroam.com/
+
+https://preview.themeforest.net/item/zento-modern-lightweight-blog-for-wordpress/full_screen_preview/51579969?_ga=2.140367536.22983989.1714953912-588752519.1714953912
