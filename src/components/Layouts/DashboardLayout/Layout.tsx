@@ -12,7 +12,6 @@ export default function DashboardLayout({
       className="flex flex-col h-screen oveflow-hidden"
     >
       <Header />
-      <Header />
       <div aria-label="Main content" className="grow flex overflow-hidden">
         <Sidebar />
         <main className="bg-red-100 grow max-h-full overflow-y-auto overflow-x-hidden">

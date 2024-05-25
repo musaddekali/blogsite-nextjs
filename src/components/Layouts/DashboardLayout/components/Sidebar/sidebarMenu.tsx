@@ -40,7 +40,15 @@ import {
   BsMegaphone,
 } from "react-icons/bs";
 
-export const sidebarMenu = [
+export type SidebarType = {
+  icon?: JSX.Element;
+  title: string;
+  isOpen?: boolean;
+  children?: SidebarType[];
+  link?: string;
+};
+
+export const sidebarMenu: SidebarType[] = [
   {
     icon: <BsHouseDoor />,
     title: "Home",
@@ -154,45 +162,11 @@ export const sidebarMenu = [
   {
     icon: <BsBarChart />,
     title: "Analytics",
-    isOpen: false,
-    children: [
-      {
-        icon: <BsGraphUp />,
-        title: "Sales",
-        isOpen: false,
-        children: [],
-        link: "/analytics/sales",
-      },
-      {
-        icon: <BsGraphDown />,
-        title: "Expenses",
-        isOpen: false,
-        children: [],
-        link: "/analytics/expenses",
-      },
-    ],
     link: "/analytics",
   },
   {
     icon: <BsPeople />,
     title: "Community",
-    isOpen: false,
-    children: [
-      {
-        icon: <BsChatDots />,
-        title: "Forums",
-        isOpen: false,
-        children: [],
-        link: "/community/forums",
-      },
-      {
-        icon: <BsPeople />,
-        title: "Members",
-        isOpen: false,
-        children: [],
-        link: "/community/members",
-      },
-    ],
     link: "/community",
   },
   {
@@ -220,23 +194,6 @@ export const sidebarMenu = [
   {
     icon: <BsCalendar />,
     title: "Events",
-    isOpen: false,
-    children: [
-      {
-        icon: <BsCalendarCheck />,
-        title: "Upcoming",
-        isOpen: false,
-        children: [],
-        link: "/events/upcoming",
-      },
-      {
-        icon: <BsCalendar2Event />,
-        title: "Past",
-        isOpen: false,
-        children: [],
-        link: "/events/past",
-      },
-    ],
     link: "/events",
   },
   {
@@ -330,23 +287,6 @@ export const sidebarMenu = [
   {
     icon: <BsCamera />,
     title: "Gallery",
-    isOpen: false,
-    children: [
-      {
-        icon: <BsCamera />,
-        title: "Photos",
-        isOpen: false,
-        children: [],
-        link: "/gallery/photos",
-      },
-      {
-        icon: <BsCamera />,
-        title: "Videos",
-        isOpen: false,
-        children: [],
-        link: "/gallery/videos",
-      },
-    ],
     link: "/gallery",
   },
   {
