@@ -23,7 +23,7 @@
     --border: 220 13% 91%;
     --input: 220 13% 91%;
     --ring: 262.1 83.3% 57.8%;
-    --radius: 0rem;
+    --radius: 0.5rem;
   }
 
   .dark {
@@ -66,4 +66,12 @@
   body {
     @apply bg-background text-foreground font-roboto;
   }
+}
+
+::-webkit-scrollbar {
+  @apply w-1.5 h-1.5;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
 }
