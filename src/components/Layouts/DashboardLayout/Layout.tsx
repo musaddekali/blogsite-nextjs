@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 export default function DashboardLayout({
   children,
@@ -11,6 +11,7 @@ export default function DashboardLayout({
       aria-label="Dashboard Layout"
       className="flex flex-col h-screen oveflow-hidden"
     >
+      <Header />
       <Header />
       <div aria-label="Main content" className="grow flex overflow-hidden">
         <Sidebar />
