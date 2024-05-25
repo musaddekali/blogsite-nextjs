@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Layout from "@/components/Layout/Layout";
 import { dancingScript, lato, montserrat, roboto } from "@/components/Fonts";
 
 export const metadata: Metadata = {
@@ -19,9 +18,7 @@ export default function RootLayout({
       lang="en"
       className={`${roboto.variable} ${montserrat.variable} ${dancingScript.variable} ${lato.variable}`}
     >
-      <body>
-        <Layout>{children}</Layout>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
