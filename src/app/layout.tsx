@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { dancingScript, lato, montserrat, roboto } from "@/components/Fonts";
+import BlogLayout from "@/components/Layouts/BlogLayout";
 
 export const metadata: Metadata = {
   title: "Publish your talk",
@@ -18,7 +19,9 @@ export default function RootLayout({
       lang="en"
       className={`${roboto.variable} ${montserrat.variable} ${dancingScript.variable} ${lato.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <BlogLayout>{children}</BlogLayout>
+      </body>
     </html>
   );
 }

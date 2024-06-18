@@ -16,33 +16,17 @@ export default function Header() {
                 <li>
                   <Link
                     className="px-4 py-2 hover:text-slate-300 transition"
-                    href="/"
+                    href="/dashboard"
                   >
-                    Home
+                    Dashboard
                   </Link>
                 </li>
                 <li>
                   <Link
                     className="px-4 py-2 hover:text-slate-300 transition"
-                    href="blog/recurtion"
+                    href="/design"
                   >
-                    Recurtion
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="px-4 py-2 hover:text-slate-300 transition"
-                    href="/"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="px-4 py-2 hover:text-slate-300 transition"
-                    href="/"
-                  >
-                    Blogs
+                    Design
                   </Link>
                 </li>
                 <li>
