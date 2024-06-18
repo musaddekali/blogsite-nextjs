@@ -10,7 +10,7 @@ export default function BlogLayout({
   const pathname = usePathname();
 
   if (["/dashboard"].includes(pathname)) {
-    return children;
+    return <div>{children}</div>;
   }
 
   return (

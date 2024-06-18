@@ -8,7 +8,7 @@ export interface BlogData {
   createdAt: string;
   author: {
     name: string;
-    profileImage: string;
+    avatar: string;
     bio: string;
   };
 }
@@ -26,7 +26,7 @@ export const blogData: BlogData[] = [
     createdAt: "April 23, 2024",
     author: {
       name: "Giovanni Rossi",
-      profileImage: "/images/recipe_1.jpg",
+      avatar: "/images/recipe_1.jpg",
       bio: "Giovanni Rossi is an Italian chef with over 20 years of experience in traditional Italian cuisine.",
     },
   },
@@ -42,7 +42,7 @@ export const blogData: BlogData[] = [
     createdAt: "May 12, 2024",
     author: {
       name: "Emily Green",
-      profileImage: "/images/recipe_1.jpg",
+      avatar: "/images/recipe_1.jpg",
       bio: "Emily Green is a food blogger and nutritionist specializing in healthy and plant-based recipes.",
     },
   },
@@ -58,7 +58,7 @@ export const blogData: BlogData[] = [
     createdAt: "June 5, 2024",
     author: {
       name: "Carlos Ramirez",
-      profileImage: "/images/recipe_1.jpg",
+      avatar: "/images/recipe_1.jpg",
       bio: "Carlos Ramirez is a pastry chef known for his indulgent and creative dessert recipes.",
     },
   },
@@ -74,7 +74,7 @@ export const blogData: BlogData[] = [
     createdAt: "July 14, 2024",
     author: {
       name: "Laura Bennett",
-      profileImage: "/images/recipe_1.jpg",
+      avatar: "/images/recipe_1.jpg",
       bio: "Laura Bennett is a chef and cookbook author who loves creating easy and delicious meals for home cooks.",
     },
   },
@@ -89,7 +89,7 @@ export const blogData: BlogData[] = [
     createdAt: "August 21, 2024",
     author: {
       name: "Sophia Martinez",
-      profileImage: "/images/recipe_1.jpg",
+      avatar: "/images/recipe_1.jpg",
       bio: "Sophia Martinez is a home baker and food photographer who shares her love for baking through her beautiful and delicious recipes.",
     },
   },
